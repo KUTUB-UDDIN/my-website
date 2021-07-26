@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Volkhov&display=swap');
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Volkhov';
+}
+ /* global */
+ .container{
+     max-width: 1160px;
+     margin: auto;
+ }
+/* navbar */
+.navbar{
+  margin-top: 30PX;
+  
+}
+        
+.menu-item{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-align: center;
+
+}
+.menu-item a{
+    text-decoration: none;
+     color: black;
+       padding: 0 30px;
+      font-size: 20px;
+}
+
+/* hero section start */
+  
+.hero-section{
+    display: flex;
+}
+.intro-text{
+  margin: auto;
+  font-size: 20px;
+}
+.text-style{
+    color: brown;
+}
+.text-design{
+    color: orange;
+}
+.intro-image img{
+
+    width: 100%;
+    margin-top: -20px;
+   
+}
+/* hero part start */
+ .hero-part{
+     display: flex;
+ }
+
+ .intro-image img{
+    width: 100%;
+ }
+ /* button-link */
+ .button-link{
+     text-decoration: none;
+     color: white;
+     background-image: linear-gradient(45deg,cyan,blue);
+     padding: 10px;
+     border-radius: 15px;
+    position: absolute;
+    margin-top: 20px;
+ }
+ .button-field{
+     padding: 10px;
+     color: black;
+ }
+
+/* destination */
+.text-property{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.destination{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.photo-style{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 5px 2px 5px  2px gray;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 300px;
+
+ 
+}
+.photo-style img{
+    width: 100%;
+   
+}
+.photo-style p{
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.baner-them {
+    display: flex;
+    background-image: url('shapes/Group_33094_1.png');
+    width: 50%;
+    height: 160px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+    
+.text-decorate{
+    padding: 49px;
+    margin: 37px; 
+    align-items: center;
+}
+.letchat{
+    background-image: linear-gradient(180deg,tomato,lightsalmon);
+    height: 10px;
+    border-radius: 30px;
+
+}
+
+.youtube-vedio{display: flex;
+      margin-top: -30px; 
+     /* padding: 10px; */
+     padding:30px;
+     flex-wrap: wrap;
+    
+     
+}
+.nath{
+    padding: 10px;
+    margin: 0 20px;
+    box-shadow: 5px 2px 5px  2px gray;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+.nath:hover{
+    background-color: skyblue;
+    transition: background-color ease-in 2s;
+    cursor: pointer;
+}
+ .headline{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+} 
+
+.footer{
+    text-align: center;
+}
+.facebook{
+     color: #4267B2; 
+}
+.twitter{
+    color:#1DA1F2;
+}
+.pinterest{
+    color: #BD081C;
+}
+.instagram{
+    color: #E1306C;
+}
+.field{
+    background-color:#f5f6fa;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    box-shadow: 10px 20px 30px gray;
+
+    
+}
+.field:hover{
+    transform: scale(1.2);
+    transition: transform ease-in 1s;
+}
+
+@media screen and (max-width:768px){
+
+    .menu-item{
+        display: flex;
+        flex-direction: column; 
+        background-color: indigo;  
+    }
+    .menu-item a{
+        padding: 10px;
+        margin: 10px;
+
+    }
+    .intro-image img{
+        width: 100%;
+         margin-left: 0px; 
+        }
+
+        .hero-section{
+            display: flex;
+             flex-direction: column;
+        }
+        .intro-text{
+            padding: 30px;
+           
+        }
+    
+      
+        .hero-part{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+        }
+      
+        .baner-them {
+            display: flex;
+            background-image: url('shapes/Group_33094_1.png');
+            width: 100%;
+            height: 100px;
+            border-radius: 5px;
+            /* margin-top: 10px; */
+         
+        
+        }
+ 
+                                
+                        .text-decorate{
+                            padding: 28px;
+                            margin: 10px; 
+                            align-items: center;
+                        }
+
+       
+    }
